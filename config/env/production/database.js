@@ -7,11 +7,11 @@ module.exports = ({ env }) => {
         connection: {
             client: 'postgres',
             connection: {
-                host,
-                port,
-                database,
-                user,
-                password,
+                host: '172.16.16.4',
+                port: '5432',
+                database: 'default_db',
+                user: 'gen_user',
+                password: '062855me',
             },
             debug: false,
         },
